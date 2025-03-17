@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## Schermafdrukken
 
-![Schermafdrukken van Reveal.js](./doc/screenshots/example.jpg)
+![Schermafdrukken van Reveal.js](./doc/screenshots/screenshot.png)
 
 ## Documentatie en bronnen
 

@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## Screenshots
 
-![Screenshot of Reveal.js](./doc/screenshots/example.jpg)
+![Screenshot of Reveal.js](./doc/screenshots/screenshot.png)
 
 ## Documentation and resources
 

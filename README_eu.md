@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## Pantaila-argazkiak
 
-![Reveal.js(r)en pantaila-argazkia](./doc/screenshots/example.jpg)
+![Reveal.js(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
 
 ## Dokumentazioa eta baliabideak
 

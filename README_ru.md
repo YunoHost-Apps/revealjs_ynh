@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## Снимки экрана
 
-![Снимок экрана Reveal.js](./doc/screenshots/example.jpg)
+![Снимок экрана Reveal.js](./doc/screenshots/screenshot.png)
 
 ## Документация и ресурсы
 

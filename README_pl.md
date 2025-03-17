@@ -27,7 +27,7 @@ This is a dummy description of this app features
 
 ## Zrzuty ekranu
 
-![Zrzut ekranu z Reveal.js](./doc/screenshots/example.jpg)
+![Zrzut ekranu z Reveal.js](./doc/screenshots/screenshot.png)
 
 ## Dokumentacja i zasoby
 
