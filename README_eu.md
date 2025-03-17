@@ -29,7 +29,6 @@ reveal.js is an open source HTML presentation framework. It enables anyone with 
 
 ![Reveal.js(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
 
-
 ## Dokumentazioa eta baliabideak
 
 - Aplikazioaren webgune ofiziala: <https://revealjs.com/>
