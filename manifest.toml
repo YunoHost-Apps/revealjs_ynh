@@ -2,8 +2,8 @@
 
 packaging_format = 2
 
-id = "reveal"
-name = "Reveal"
+id = "revealjs"
+name = "Reveal.js"
 description.en = "HTML Presentation Framework"
 description.fr = "HTML Presentation Framework"
 
