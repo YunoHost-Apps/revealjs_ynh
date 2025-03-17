@@ -27,7 +27,7 @@ reveal.js est un cadre de présentation HTML open source. Il permet à toute per
 
 ## Captures d’écran
 
-![Capture d’écran de Reveal.js](./doc/screenshots/example.jpg)
+![Capture d’écran de Reveal.js](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 

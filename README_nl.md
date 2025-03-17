@@ -27,7 +27,7 @@ reveal.js is an open source HTML presentation framework. It enables anyone with 
 
 ## Schermafdrukken
 
-![Schermafdrukken van Reveal.js](./doc/screenshots/example.jpg)
+![Schermafdrukken van Reveal.js](./doc/screenshots/screenshot.png)
 
 ## Documentatie en bronnen
 

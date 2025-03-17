@@ -27,7 +27,7 @@ reveal.js is an open source HTML presentation framework. It enables anyone with 
 
 ## 截图
 
-![Reveal.js 的截图](./doc/screenshots/example.jpg)
+![Reveal.js 的截图](./doc/screenshots/screenshot.png)
 
 ## 文档与资源
 
