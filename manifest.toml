@@ -2,25 +2,24 @@
 
 packaging_format = 2
 
-id = "example"
-name = "Example app"
-description.en = "Explain in *a few (10~15) words* the purpose of the app or what it actually does (it is meant to give a rough idea to users browsing a catalog of 100+ apps)"
+id = "reveal"
+name = "Reveal"
+description.en = "HTML Presentation Framework"
 description.fr = "Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)"
 
-version = "1.0~ynh1"
+version = "5.1.0~ynh1"
 
 maintainers = ["johndoe"]
 
 [upstream]
 license = "MIT"
-website = "https://example.com"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
-code = "https://some.forge.com/example/example"
+website = "https://revealjs.com/"
+demo = "https://revealjs.com/"
+admindoc = "https://revealjs.com/installation/"
+code = "https://github.com/hakimel/reveal.js"
 
 [integration]
-yunohost = ">= 11.2.18"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -38,76 +37,28 @@ ram.runtime = "50M"
     type = "domain"
 
     [install.path]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
     type = "path"
-    default = "/example"
+    default = "/reveal"
 
     [install.init_main_permission]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
-    # This won't be saved as setting and will instead be used to initialize the SSOwat permission
     type = "group"
     default = "visitors"
 
-    [install.language]
-    ask.en = "Choose the application language"
-    ask.fr = "Choisissez la langue de l'application"
-    type = "select"
-    choices = ["fr", "en"]
-    default = "fr"
-
-    [install.admin]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
-    type = "user"
-
-    [install.password]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
-    # Note that user-provided passwords questions are not automatically saved as setting
-    help.en = "Use the help field to add an information for the admin about this question."
-    help.fr = "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
-    type = "password"
-
 [resources]
-    # See the packaging documentation for the full set
-    # of explanation regarding the behavior and properties for each of those
 
     [resources.sources]
 
     [resources.sources.main]
-    # This will pre-fetch the asset which can then be deployed during the install/upgrade scripts with :
-    #    ynh_setup_source --dest_dir="$install_dir"
-    # You can also define other assets than "main" and add --source_id="foobar" in the previous command
-    url = "https://github.com/foo/bar/archive/refs/tags/v1.2.3.tar.gz"
-    sha256 = "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
-
-    # These infos are used by https://github.com/YunoHost/apps/blob/master/tools/autoupdate_app_sources/autoupdate_app_sources.py
-    # to auto-update the previous asset urls and sha256sum + manifest version
-    # assuming the upstream's code repo is on github and relies on tags or releases
-    # See the 'sources' resource documentation for more details
+    url = "https://github.com/hakimel/reveal.js/archive/refs/tags/5.1.0.tar.gz"
+    sha256 = "ddc83539ec50583eac9a972e88f892971b37c44e70dd0c08be069e2688684b71"
 
     # autoupdate.strategy = "latest_github_tag"
 
     [resources.system_user]
-    # This will provision/deprovision a unix system user
 
     [resources.install_dir]
-    group = "www-data:r-x"
-    # This will create/remove the install dir as /var/www/$app
-    # and store the corresponding setting $install_dir
-
-    [resources.data_dir]
-    # This will create/remove the data dir as /home/yunohost.app/$app
-    # and store the corresponding setting $data_dir
 
     [resources.permissions]
-    # This will configure SSOwat permission for $domain/$path/
-    # The initial allowed group of user is configured via the init_main_permission question (public=visitors, private=all_users)
     main.url = "/"
 
     [resources.ports]
-
-    [resources.apt]
-
-    packages = "mariadb-server, deb1, deb2, php8.0-foo, php8.0-bar"
-
-    [resources.database]
-    type = "mysql"
