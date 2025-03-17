@@ -18,7 +18,7 @@ NON debe editarse manualmente.
 
 ## Vista xeral
 
-This is a dummy description of this app features
+reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create beautiful presentations for free.
 
 
 **Versión proporcionada:** 5.1.0~ynh1
