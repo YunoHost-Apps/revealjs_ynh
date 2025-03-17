@@ -49,8 +49,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/hakimel/reveal.js/archive/refs/tags/5.1.0.tar.gz"
-    sha256 = "ddc83539ec50583eac9a972e88f892971b37c44e70dd0c08be069e2688684b71"
+    url = "https://github.com/hakimel/reveal.js/archive/master.zip"
+    sha256 = "60c1babd6fddaaf0927958f583678f5ee14bb2315e76395ba452550fec64a8f6"
 
     # autoupdate.strategy = "latest_github_tag"
 
