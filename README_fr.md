@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
+reveal.js est un cadre de présentation HTML open source. Il permet à toute personne disposant d'un navigateur web de créer gratuitement de superbes présentations.
 
 
 **Version incluse :** 5.1.0~ynh1
