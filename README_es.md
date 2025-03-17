@@ -1,9 +1,9 @@
-# Armar una aplicación, empezando por este ejemplo
+# Armar una aplicación empezando por este ejemplo
 
-- Copie esta aplicación antes se trabajar en ella,utilizando el botton ['use esta plantilla'](https://github.com/new?template_name=example_ynh&template_owner=YunoHost) en el repositorio de Github
+- Copia esta aplicación antes se trabajar en ella,utilizando el botón ['use esta plantilla'](https://github.com/new?template_name=example_ynh&template_owner=YunoHost) en el repositorio de Github
 - Edita el archivo `manifest.toml` con las informaciones especifica de la aplicación
-- Edita los archivos de scripts `install`, `upgrade`, `remove`, `backup` and `restore` , y los archivos de configuraciones ubicados en `conf/`
-  - Usando la [documentación des los script helpers](https://yunohost.org/packaging_apps_helpers)
+- Edita los archivos de scripts `install`, `upgrade`, `remove`, `backup`, `restore` y los archivos de configuraciones ubicados en `conf/`
+  - Usando la [documentación des los scripts helpers](https://yunohost.org/packaging_apps_helpers)
 - Edita el archivo de script `change_url` and `config` o borra los si no les son utiles
 - Agrega un archivo `LICENSE` para el paquete.
   - No es necesario que la `LICENSE` de los script de gestion de aplicacion sea la misma que la LICENSE de la aplicacion gestionada. Recomendamos usar [the AGPL-3](https://www.gnu.org/licenses/agpl-3.0.txt)
@@ -18,7 +18,9 @@ No se debe editar a mano.
 
 # Example app para Yunohost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/example.svg)](https://dash.yunohost.org/appci/app/example) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/example.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/example.maintain.svg)
+[![Nivel de integración](https://apps.yunohost.org/badge/integration/example)](https://ci-apps.yunohost.org/ci/apps/example/)
+![Estado funcional](https://apps.yunohost.org/badge/state/example)
+![Estado En Mantención](https://apps.yunohost.org/badge/maintained/example)
 
 [![Instalar Example app con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=example)
 
@@ -51,7 +53,7 @@ This is a dummy description of this app features
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/example_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/example_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
